@@ -12,7 +12,7 @@ function reverse_on(){
     el.innerHTML = value.reverse().join(",");
 }
 
-function evenOdd(){
+function EvenOdd(){
     let number=input.value.split(",");
     const even=number.filter((num) => num%2==0);
     const odd=number.filter((num) => num%2!=0);
